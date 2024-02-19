@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+table{
+    width: 65vw;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.amount{
+    text-align: end;
+}
